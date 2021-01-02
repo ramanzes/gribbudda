@@ -1,0 +1,36 @@
+.site>div {
+    min-height: 100px;
+}
+
+.bgblack>div {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+#header {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#header nav {
+    min-height: 60px;
+    background-color: #000000;
+}
+
+.banner2 {
+    padding-left: 0;
+    padding-right: 0;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: url(/images/bg.jpg) no-repeat center top fixed;
+    filter: brightness(60%);
+}
+
+.banner2 p {
+    filter: brightness(100%);
+    background-size: cover;
+}
